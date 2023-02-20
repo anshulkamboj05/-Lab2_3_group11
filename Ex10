@@ -1,0 +1,7 @@
+# Avarage of integers
+integerlimit = int(input("Please input an integer number to be the last of a sequence \n"))
+average = 0
+i = 0
+for i in range(integerlimit+1):
+    average += i
+print(str(average/integerlimit))
